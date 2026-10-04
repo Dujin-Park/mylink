@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "마이링크 | mylink",
-  description: "마이링크 Next.js 프로젝트",
+  title: "개발자 프로필 | 마이링크",
+  description:
+    "사용자의 문제를 세심하게 살피고 직관적이고 안정적인 웹 경험을 만드는 개발자입니다.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
